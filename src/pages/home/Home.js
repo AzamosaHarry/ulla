@@ -150,7 +150,7 @@ function Home() {
                         <h1>Investor Center</h1>
                         <hr />
                     </div>
-                    <p>ADM Energy is a natural resources investing company listed on the AIM market of the London Stock Exchange, the Quotation Board Segment of the Open Market of the Berlin Stock Exchange ("BER") and Xetra, the electronic trading platform of the Frankfurt Stock Exchange ("FSE").</p>
+                    <p>ULLA Energy is a natural resources investing company listed on the AIM market of the London Stock Exchange, the Quotation Board Segment of the Open Market of the Berlin Stock Exchange ("BER") and Xetra, the electronic trading platform of the Frankfurt Stock Exchange ("FSE").</p>
                 </div>
                 <div className='home__main__section__three__end'>
                     <div>
@@ -162,7 +162,7 @@ function Home() {
                     <div>
                         <img src={home_IR_2} alt='' className='home__main__section__three__end__img'/>
                         <h1>Investor Relations</h1>
-                        <p>View Ulla energy latest Annual Report and AccountsDiscover ADM's latest investor presentation, financial reports and other investor information </p>
+                        <p>View Ulla energy latest Annual Report and AccountsDiscover ULLA's latest investor presentation, financial reports and other investor information </p>
                         <h3>Visit IR Centre</h3>
                     </div>
                     <div>

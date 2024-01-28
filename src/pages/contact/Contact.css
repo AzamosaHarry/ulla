@@ -72,6 +72,7 @@
     margin-top: 20px;
     font-size: 17px;
     font-weight: 700;
+    cursor: pointer;
 }
 .contact__main__section__two__send > div{
     width: 100%;

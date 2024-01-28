@@ -4,9 +4,27 @@ import { FaPhone } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { IoMdHome } from "react-icons/io";
 import './Contact.css' 
+import emailjs, {init} from '@emailjs/browser'
+import { useRef, useState } from 'react';
 
 function Contact() {
+  const [firstname,setFirstname] = useState('')
+  const [lasname,setLastname] = useState('')
+  const [phone,setPhone] = useState('')
+  const [Company,setCompany] = useState('')
+  const [message,setMessage] = useState('')
 
+  const form = useRef()
+function submit(e) {
+    emailjs.sendForm('service_gv8dt8j', 'template_em9lpet', form.current, 'fL4UraYJiFZYYrz6z').then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+}  
     return(
         <div>
             <Header />
@@ -43,14 +61,14 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className='contact__main__section__two__send'>
+                    <form ref={form} className='contact__main__section__two__send'>
                         <h1>Send a message</h1>
                         <hr />
-                        <div><input placeholder='First Name'/><input placeholder='Last Name'/></div>
-                        <div><input placeholder='Phone Number'/><input placeholder='Company Name'/></div>
-                        <div><input placeholder='Message' id='contact__main__section__two__send__message'/></div>
-                        <button> Send now</button>
-                    </div>
+                        <div><input placeholder='First Name'  onChange={(e) => {setFirstname(e.target.value)}}/><input placeholder='Last Name'  onChange={(e) => {setLastname(e.target.value)}}/></div>
+                        <div><input placeholder='Phone Number' onChange={(e) => {setPhone(e.target.value)}}/><input placeholder='Company Name' onChange={(e) => {setCompany(e.target.value)}}/></div>
+                        <div><input placeholder='Message' id='contact__main__section__two__send__message' onChange={(e) => {setMessage(e.target.value)}}/></div>
+                        <button onClick={(e) => {submit()}}> Send now</button>
+                    </form>
                 </section>
                 <section className='contact__main__section__three'>
                     <iframe 
