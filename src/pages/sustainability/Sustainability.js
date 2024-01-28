@@ -12,7 +12,7 @@ function Sustainability() {
         <div>
             <Header />
             <div className='sustainabity__main'>
-                <section className='contact__main__section__one'>
+                <section className='contact__main__section__one bgcsr'>
                     <h1>Corporate Social Responsibility</h1>
                 </section>
                 <section className='sustainability__main__section__two'>

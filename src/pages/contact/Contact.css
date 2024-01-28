@@ -3,6 +3,10 @@
     background: url(/src/assets/guilherme-cunha-4zwozQxDbD4-unsplash.jpg);
     width: 100%;
 }
+.contact__main__section__one.bgco {
+    background: url(/src/assets/bgco.png);
+    background-size: cover;
+}
 .contact__main__section__one > h1{
     padding-top: 26.5vh;
     font-size: 35px;

@@ -18,7 +18,7 @@ function Operations() {
         <div>
         <Header />
         <div className='operations'>
-            <section className='contact__main__section__one'>
+            <section className='contact__main__section__one bgop'>
                 <h1>Our Operations</h1>
             </section>
             <section className='operation__main__section__two'>

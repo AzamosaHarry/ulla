@@ -29,7 +29,7 @@ function submit(e) {
         <div>
             <Header />
             <div className='contact__main'>
-                <section className='contact__main__section__one'>
+                <section className='contact__main__section__one bgco'>
                     <h1>Contact us</h1>
                 </section>
                 <section className='contact__main__section__two'>

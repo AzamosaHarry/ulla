@@ -1,3 +1,7 @@
+.contact__main__section__one.bgcsr {
+    background: url(/src/assets/bgcsr.png);
+    background-size: cover;
+}
 .sustainability__main__section__two {
     padding: 5% 22.5%;
 }

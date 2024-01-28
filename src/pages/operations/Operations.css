@@ -1,3 +1,7 @@
+.contact__main__section__one.bgop {
+    background: url(/src/assets/bgop.png);
+    background-size: cover;
+}
 .operation__main__section__two {
     display: flex;
     align-items: start;
