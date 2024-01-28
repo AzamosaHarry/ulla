@@ -1,0 +1,146 @@
+.glance__section__three {
+    padding: 1.5% 22.5%;
+}
+.glance__section__three > h1{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.glance__section__three__explore {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    width: 100%;
+}
+.glance__section__three__explore > div{
+    background: #f5f5f6;
+    width: 20%;
+    padding: 40px 25px;
+    border-bottom: 2px solid #1c2334;
+    cursor: pointer;
+    height: 300px;
+    transition: 0.5s ease-in-out;
+}
+.glance__section__three__explore > div:hover{
+    background: white;
+    box-shadow: 2.5px 2.5px 5px -4px #28282b;
+    border-bottom: 2px solid #cb1a2b;
+}
+.glance__section__three__explore > div > h1{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #1c2334;
+}
+.glance__section__three__explore > div > p{
+    font-weight: 200;
+    font-size: 16px;
+    color: gray;
+    line-height: 25px;
+}
+.glance__section__three__explore__icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.glance__section__four {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    width: 100%;
+    background: #f3f5f9;
+    padding: 5% 22.5%;
+}
+.glance__section__four__details {
+    width: 50%;
+}
+.glance__section__four__details > h3{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: gray;
+}
+.glance__section__four__details > h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.glance__section__four__details > hr{
+    width: 150px;
+    margin: 20px 0;
+    border: 1px solid #ffcc00;
+}
+.glance__section__four__details > p{
+    font-size: 14px;
+    line-height: 25px;
+    color: gray;
+}
+.glance__section__four__details__display {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.glance__section__four__details__display > img{
+    width: 40%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+@media all and (max-width: 600px) {
+    .glance__section__three {
+        padding: 5% 8%;
+    }
+    .glance__section__three > h1{
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .glance__section__three__explore {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .glance__section__three__explore > div{
+        width: 100%;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        height: 220px;
+    }
+    .glance__section__three__explore > div > h1{
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #1c2334;
+    }
+    .glance__section__three__explore > div > p{
+        font-weight: 200;
+        font-size: 16px;
+        color: gray;
+        line-height: 25px;
+    }
+    .glance__section__three__explore__icon {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .glance__section__four {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding: 5% 8%;
+    }
+    .glance__section__four__details {
+        width: 100%;
+    }
+    .glance__section__four__details__display {
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 20px;
+    }
+    .glance__section__four__details__display > img{
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+}

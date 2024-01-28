@@ -1,0 +1,131 @@
+.sustainability__main__section__two {
+    padding: 5% 22.5%;
+}
+.sustainability__main__section__two > h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.sustainability__main__section__two > hr{
+    width: 150px;
+    margin: 20px 0;
+    border: 1px solid #ffcc00;
+}
+.sustainability__main__section__two > h3{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: gray;
+}
+.sustainability__main__section__two > p{
+    font-size: 14px;
+    line-height: 25px;
+    color: gray;
+}
+.sustainability__main__section__three {
+    padding: 5% 22.5%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background: #f3f5f9;
+}
+.sustainability__main__section__three > div > h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.sustainability__main__section__three > div{
+    width: 65%;
+}
+.sustainability__main__section__three > img{
+    object-fit: cover;
+    height: 100%;
+    width: 30%;
+}
+.sustainability__main__section__three > div > hr{
+    width: 150px;
+    margin: 20px 0;
+    border: 1px solid #ffcc00;
+}
+.sustainability__main__section__three > div > h3{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: gray;
+}
+.sustainability__main__section__three > div > p{
+    font-size: 14px;
+    line-height: 25px;
+    color: gray;
+}
+.sustainability__main__section__four {
+    padding: 5% 22.5%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.sustainability__main__section__four > div > h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.sustainability__main__section__four > div{
+    width: 65%;
+}
+.sustainability__main__section__four > img{
+    object-fit: cover;
+    height: 100%;
+    width: 30%;
+}
+.sustainability__main__section__four > div > hr{
+    width: 150px;
+    margin: 20px 0;
+    border: 1px solid #ffcc00;
+}
+.sustainability__main__section__four > div > h3{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: gray;
+}
+.sustainability__main__section__four > div > p{
+    font-size: 14px;
+    line-height: 25px;
+    color: gray;
+}
+
+@media all and (max-width: 600px) {
+    .sustainability__main__section__two {
+        padding: 5% 8%;
+    }
+    .sustainability__main__section__three {
+        padding: 5% 8%;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .sustainability__main__section__three > div{
+        width: 100%;
+    }
+    .sustainability__main__section__three > img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sustainability__main__section__four {
+        padding: 5% 8%;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    .sustainability__main__section__four > div{
+        width: 100%;
+    }
+    .sustainability__main__section__four > img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

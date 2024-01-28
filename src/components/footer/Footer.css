@@ -1,0 +1,118 @@
+.footer {
+}
+.footer__section__one {
+    padding: 3% 22.5%;
+    object-fit: contain;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.footer__section__one > img {
+    object-fit: contain;
+    height: 70px;
+}
+.footer__section__one > div:first-of-type{
+    margin-left: auto;
+}
+.footer__section__one > div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.footer__section__one > div > span{
+    font-weight: 400;
+    margin: 5px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.footer__section__one__icon {
+    margin-right: 10px;
+    color: #0c0f1a;
+}
+.footer__section__two {
+    padding: 2.5% 22.5%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    background: #13182c;
+    color: white;
+}
+.footer__section__two > div{
+    width: 25%;
+}
+.footer__section__two > div > hr{
+    width: 50px;
+    margin: 15px 0;
+    border: 1px solid #ffcc00;
+    transition: 0.5s linear;
+}
+.footer__section__two > div > hr:hover{
+    width: 80px;
+}
+.footer__section__two > div > h1{
+    font-weight: 500;
+    font-size: 15px;
+}
+.footer__section__two > div > p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer__section__three {
+    background-color: #0c0f1a;
+    padding: 0.5% 22.5%;
+}
+.footer__section__three > p{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+}
+@media all and (max-width: 600px) {
+    .footer__section__one {
+        padding: 2.5% 8%;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin-bottom: 50%;
+    }
+    .footer__section__one > img {
+        object-fit: contain;
+        height: 70px;
+        margin-bottom: 25px;
+    }
+    .footer__section__one > div:first-of-type{
+        margin-left: 0;
+    }
+    .footer__section__one > div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .footer__section__one > div > span{
+        font-weight: 400;
+        margin: 5px 0;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+    .footer__section__two {
+        padding: 2.5% 8%;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .footer__section__two > div{
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    .footer__section__two > div > hr{
+        width: 150px;
+    }
+    .footer__section__three {
+        background-color: #0c0f1a;
+        padding: 2.5% 8%;
+    }
+}

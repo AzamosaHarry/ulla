@@ -1,0 +1,76 @@
+.strategy__section__one {
+    padding: 2.5% 22.5%;
+}
+.strategy__section__one__details__display {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.strategy__section__one__details__display > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+.strategy__section__one__details__display > div > div{
+    width: 80%;
+}
+.strategy__section__one__details__display > div h3{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+.strategy__section__one__details__display > div p{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 25px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.strategy__section__one__explore__icon {
+    font-size: 50px;
+    margin-right: 30px;
+    font-weight: 100;
+}
+
+@media all and (max-width: 600px) {
+    .strategy__section__one {
+        padding: 2.5% 8%;
+    }
+    .strategy__section__one__details__display {
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        margin-bottom: 20px;
+    }
+    .strategy__section__one__details__display > div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .strategy__section__one__details__display > div > div{
+        width: 80%;
+    }
+    .strategy__section__one__details__display > div h3{
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+    .strategy__section__one__details__display > div p{
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 25px;
+        color: gray;
+        margin-bottom: 30px;
+    }
+    .strategy__section__one__explore__icon {
+        font-size: 50px;
+        margin-right: 30px;
+        font-weight: 100;
+    }
+}
