@@ -4,7 +4,7 @@
     padding: 0 22.5%;
 }
 .home__main__section__one h3{
-    padding-top: 30vh;
+    padding-top: 25vh;
     font-size: 13px;
     font-weight: 400;
     margin-bottom: 5px;
@@ -13,7 +13,7 @@
     width: 50%;
     font-size: 50px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .home__main__section__one p{
     font-size: 15px;
@@ -27,7 +27,7 @@
     background: #ffcc00;
     color: white;
     border-radius: 2.5px;
-    margin-top: 20px;
+    margin-top: 15px;
     cursor: pointer;
 }
 .home__main__section__two {
@@ -122,7 +122,7 @@
     border: 1px solid #ffcc00;
 }
 .home__main__section__three__start > p{
-    width: 80%;
+    width: 100%;
     line-height: 25px;
     color: gray;
     font-size: 16px;
@@ -220,7 +220,8 @@
     line-height: 18px;
 }
 .home__main__section__four__icon {
-    color: #ffcc00;
+    color: wheat;
+    font-size: 20px;
 }
 .home__main__section__five {
     background: #f3f5f9;
@@ -415,9 +416,10 @@
     }
     .primary_one > p{
         font-size: 15px;
-        width: 100%;
+        width: 90%;
+        margin: 0;
     }
     .home__main__section__five__fg {
-       padding: 5% 8%;
+       padding: 5% 0%;
     }
 }

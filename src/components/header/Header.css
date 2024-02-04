@@ -179,7 +179,7 @@
 #headerlist__section__one > div{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 0;
 }
 #headerlist__section__one > div > span{
     font-weight: 400;
@@ -202,16 +202,15 @@
         display: none;
     }
     .header__section__two {
-        padding: 5% 8%;
+        padding: 3.5% 8%;
         margin: 0;
-        padding-top: 0;
         display: flex;
         align-items: center;
         border-bottom: 0;
         background: #13182c;
     }
     .header__section__two > img{
-        object-fit: contain;
+        object-fit: cover;
         height: 50px;
     }
     .header__section__navbar {
@@ -252,5 +251,12 @@
     }
     #headerlist__section__one {
         margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    #headerlist__section__one > div{
+        margin-left: 0;
     }
 }

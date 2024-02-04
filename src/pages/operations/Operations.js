@@ -5,8 +5,8 @@ import { TbTableFilled } from "react-icons/tb";
 import { PiHourglassMediumFill } from "react-icons/pi";
 import { SiMicrostrategy } from "react-icons/si";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";
-import about_operations_2_1 from '../../assets/about_operations_2-1.webp'
-import about_operations_1 from '../../assets/about_operations_1.webp'
+import about_operations_2_1 from '../../assets/Offshore-Intake-Offtake-Facilities1.jpg'
+import about_operations_1 from '../../assets//Petroleum-Product-Importation.jpg'
 import Lekki from '../../assets/Lekki-Storage-Terminal-1.jpg'
 import Warri from '../../assets/Warri-Storage-Terminal-2-2048x1229.jpg'
 import { useNavigate } from 'react-router-dom';

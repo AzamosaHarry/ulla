@@ -19,10 +19,12 @@ function Glance() {
                     <h1>ULLA at a glance</h1>
                 </section>
                 <section className='sustainability__main__section__two'>
-                    <h1>An Oil & Gas Marketing Company With An Aggressive Growth Strategy</h1>
+                    <h1>An Oil & Gas Downstream Company With An Aggressive Growth Strategy</h1>
                     <hr />
-                    <h3>ULLA Energy is a natural resources investing company with an existing multi-asset base in the Aje (OML 113) and Barracuda (OML 141) fields, offshore Nigeria. Aje has multiple oil, gas and gas condensate reservoirs in the Turonian, Cenomanian and Albian sandstones with five wells drilled to date. Barracuda sits in the northwest part of OML 141, an Oil Mining Licence area covering 1,295km2 in the swamp/shallow waters of the Niger Delta in Nigeria, and has four existing wells drilled on the swamp oilfield located in the hydro-carbon rich Bayelsa State.</h3>
-                    <p>ULLA Energy is targeting investment opportunities across West Africa in the oil and gas sector with attractive risk reward profiles such as proven nature of reserves, level of historic investment, established infrastructure, route to early cash flow.</p>
+                    <h3>As a leading player in the Nigerian oil and gas sector, Ulla Energy is actively involved in the importation, storage and marketing of refined petroleum products, through our strategic and well structured distribution channels. Our distribution extends to the six geopolitical zones of the ever growing Nigerian oil and gas market.</h3>
+                    <p>We adhere to all government regulations, with regards to the quality and safety of product brought into the country; and requisite environmental safety regulations. This is part of our social responsibility to the communities where we live and work.
+                    
+                    Our unrivaled consistency and expertise in products delivery resulting in uninterrupted product availability ensure that our customers are supplied with products as at when needed. Our effective and efficient logistics handling strength, coupled with our optimal operations network ensures that customer orders are delivered within the agreed terms and time frames.</p>
                 </section>
                 <section className='glance__section__three'>
                     <h1>Learn more about ULLA energy:</h1>
@@ -51,12 +53,12 @@ function Glance() {
                 </section>
                 <section  className='glance__section__four'>
                     <div className='glance__section__four__details'>
-                        <h3>Our Projects</h3>
+                        <h3>Our Network</h3>
                         <h1>Nigeria</h1>
                         <hr />
-                        <p>ULLA Energy holds a 9.2% profit interest in the Aje Field, part of OML 113, which covers an area of 835km² offshore Nigeria. Aje is an oil producing asset rich in gas and condensate reserves and currently has two producing wells, Aje-4 and Aje-5.
+                        <p>In line with our pioneering mentality and our innovative approach to business, we have identified the huge inefficiencies in the Nigerian Oil and Gas Industry, and have taken adequate steps to bridge these gaps, by the development of one of Africa’s largest offshore Petroleum intake/offtake and storage terminals to provide compelling Logistic advantages to the entire oil and gas value chain.
 
-ULLA Energy also has a controlling interest in a risk sharing agreement for the development of the Barracuda Field, which sits in the northwest part of OML 141, covering 1,295km² in the swamp/shallow waters of the Niger Delta in Nigeria. Four wells have been drilled to date at Barracuda and a fifth well is planned in Q4 2021 to take the asset into production.
+                        Our unrivaled consistency and expertise in products delivery resulting in uninterrupted product availability ensure that our customers are supplied with products as at when needed. Our effective and efficient logistics handling strength, coupled with our optimal operations network ensures that customer orders are delivered within the agreed terms and time frames.
                         </p>
                     </div>
                     <div className='glance__section__four__details__display'>

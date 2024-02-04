@@ -24,8 +24,8 @@ function Purpose() {
                 <section className='sustainability__main__section__two'>
                     <h1>We aim to take advantage of the substantial oil & gas investment opportunities across Nigeria and West Africa.</h1>
                     <hr />
-                    <h3>Aje has multiple oil, gas and gas condensate reservoirs in the Turonian, Cenomanian and Albian sandstones with five wells drilled to date. Barracuda sits in the northwest part of OML 141, an Oil Mining Licence area covering 1,295km2 in the swamp/shallow waters of the Niger Delta in Nigeria, and has four existing wells drilled on the swamp oilfield located in the hydro-carbon rich Bayelsa State.</h3>
-                    <p>ULLA Energy is targeting investment opportunities across West Africa in the oil and gas sector with attractive risk reward profiles such as proven nature of reserves, level of historic investment, established infrastructure, route to early cash flow.</p>
+                    <h3>We focus on creating long term value through excellent service delivery and customer satisfaction, while ensuring quality and constructive partnerships with our various stakeholders.</h3>
+                    <p>We are continuously evolving to ensure that access to our products and services is seamless, cost effective and safe. We are highly driven to be recognized as market leaders the Nigerian Oil and Gas Sector. We are renown for integrity, our passion for excellence and sustainable growth</p>
                 </section>
                 <section  className='purpose__section__one'>
                     <div className='purpose__section__one__details'>
@@ -34,7 +34,7 @@ function Purpose() {
                         <p>ULLA Energy is driven by a set of clear values that guide its behaviour and approach at all times. These values are underpinned by a commitment to ethical behaviour and full compliance with all applicable.</p>
                         <h1>Our Vision</h1>
                         <hr />
-                        <p>To become the leading inland LPG Distribution Hub in Southwestern Nigeria and West Africa.</p>
+                        <p>To become the leading inland LPG distribution Hub in Southwestern Nigeria and West Africa.</p>
                     </div>
                     <div className='purpose__section__one__details__display'>
                         <div>

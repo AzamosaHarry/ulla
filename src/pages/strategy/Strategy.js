@@ -24,7 +24,7 @@ function Strategy() {
                 <section className='sustainability__main__section__two'>
                     <h1>Building value by investing in assets with attractive risk reward profiles and high upside</h1>
                     <hr />
-                    <p>With a focus on West Africa and a quality oil producing asset offshore Nigeria, ULLA is an oil and gas investing company with an aggressive growth strategy to increase shareholder value by acquiring undervalued 2P reserves without the risks associated with high cost exploration. We evaluate investments at various stages of the production cycle focused on appraisal, development and producing assets where the risk factor is significantly reduced.</p>
+                    <p>With a focus on West Africa and a quality oil producing asset offshore Nigeria, ULLA is continually developing strategic infrastructure to facilitate the operational efficiency of our integrated bouquet of services. We evaluate investments at various stages of the production cycle focused on appraisal, development and producing assets where the risk factor is significantly reduced.</p>
                 </section>
                 <section className='strategy__section__one'>
                 <div className='strategy__section__one__details__display'>

@@ -3,7 +3,7 @@ import ullalogoblack from '../../assets/ULLA LOGO - BLACK.png'
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
-import { MdOutlinePlayArrow } from "react-icons/md";
+import { BiSolidContact } from "react-icons/bi";
 import { useNavigate } from 'react-router-dom';
 
 function Footer() {
@@ -17,7 +17,7 @@ function Footer() {
                     <span><IoMdMail  className='footer__section__one__icon'/> P.O. Box 2197, Lekki, 77252-2197</span>
                 </div>
                 <div>
-                    <span><MdOutlinePlayArrow  className='footer__section__one__icon'/> Contact Us</span>
+                    <span><BiSolidContact  className='footer__section__one__icon'/> Contact Us</span>
                     <span><FaPhone  className='footer__section__one__icon'/> +442 657 2345</span>
                 </div>
             </section>

@@ -11,12 +11,14 @@ function Contact() {
   const [firstname,setFirstname] = useState('')
   const [lasname,setLastname] = useState('')
   const [phone,setPhone] = useState('')
-  const [Company,setCompany] = useState('')
+  const [email,setEmail] = useState('')
   const [message,setMessage] = useState('')
 
   const form = useRef()
-function submit(e) {
-    emailjs.sendForm('service_gv8dt8j', 'template_em9lpet', form.current, 'fL4UraYJiFZYYrz6z').then(
+
+  init('9ybQ5MtfM9f22havr')
+  function submit(e) {
+    emailjs.sendForm('service_es0cpf8', 'template_1y18l66', form.current, '9ybQ5MtfM9f22havr').then(
         (result) => {
           console.log(result.text);
         },
@@ -48,14 +50,14 @@ function submit(e) {
                                 <IoMdMail /> 
                                 <div>
                                     <h1>Email</h1>
-                                    <p>ullaenergy@gmail.com</p>
+                                    <p>info@ullaenergy.com</p>
                                 </div>
                             </div>
                             <div>
                                 <FaPhone /> 
                                 <div>
                                     <h1>Phone</h1>
-                                    <p>+44 (0)207 459 4718
+                                    <p>+2348166208531
 </p>
                                 </div>
                             </div>
@@ -64,9 +66,9 @@ function submit(e) {
                     <form ref={form} className='contact__main__section__two__send'>
                         <h1>Send a message</h1>
                         <hr />
-                        <div><input placeholder='First Name'  onChange={(e) => {setFirstname(e.target.value)}}/><input placeholder='Last Name'  onChange={(e) => {setLastname(e.target.value)}}/></div>
-                        <div><input placeholder='Phone Number' onChange={(e) => {setPhone(e.target.value)}}/><input placeholder='Company Name' onChange={(e) => {setCompany(e.target.value)}}/></div>
-                        <div><input placeholder='Message' id='contact__main__section__two__send__message' onChange={(e) => {setMessage(e.target.value)}}/></div>
+                        <div><input placeholder='First Name' name='firstname' onChange={(e) => {setFirstname(e.target.value)}}/><input placeholder='Last Name' name='lastname' onChange={(e) => {setLastname(e.target.value)}}/></div>
+                        <div><input placeholder='Phone Number' name='phone' onChange={(e) => {setPhone(e.target.value)}}/><input placeholder='Company Name' name='email' onChange={(e) => {setEmail(e.target.value)}}/></div>
+                        <div><input placeholder='Message' name='message' id='contact__main__section__two__send__message' onChange={(e) => {setMessage(e.target.value)}}/></div>
                         <button onClick={(e) => {submit()}}> Send now</button>
                     </form>
                 </section>

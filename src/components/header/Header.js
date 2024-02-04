@@ -10,6 +10,7 @@ import { IoMdMail } from "react-icons/io";
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { RiCodeBoxFill } from "react-icons/ri";
+import { BiSolidContact } from "react-icons/bi";
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlinePlayArrow } from "react-icons/md";
@@ -23,8 +24,8 @@ function Header() {
         <div className='header'>
             <section className='header__section__one'>
                 <div className='header__section__one__info'>
-                    <p href="tel:+2347016000164">+442 657 2345 <FaPhone className='header__section__one__info__icon'/></p>
-                    <p  onClick={() => window.location = 'mailto:johnharry@gmail.com?subject=Access request'}>ullaenergy@gmail.com <IoMdMail className='header__section__one__info__icon' /></p>
+                    <p href="tel:+2347016000164">+2348166208531 <FaPhone className='header__section__one__info__icon'/></p>
+                    <p  onClick={() => window.location = 'mailto:johnharry@gmail.com?subject=Access request'}>info@ullaenergy.com <IoMdMail className='header__section__one__info__icon' /></p>
                     <p>News and media</p>
                 </div>
                 <div className='header__section__one__socials'>
@@ -78,12 +79,12 @@ function Header() {
                     >Contact</Link></li>
                     <li id='headerlist__section__one'>
                     <div>
-                        <span><FaLocationDot id='headerlist__section__one__icon'/> 925 N. Eldridge Parkway (77079-2703)</span>
-                        <span><IoMdMail  id='headerlist__section__one__icon'/> P.O. Box 2197, Houston, TX 77252-2197</span>
+                        <span><FaLocationDot id='headerlist__section__one__icon'/> KM 42, Lekki Epe Expressway Abijo, Ibeju Lekki Lagos.</span>
+                        <span><IoMdMail  id='headerlist__section__one__icon'/> P.O. Box 2197, Lekki</span>
                     </div>
                     <div>
-                        <span><MdOutlinePlayArrow  id='headerlist__section__one__icon'/> Contact Us</span>
-                        <span><FaPhone  id='headerlist__section__one__icon'/> +442 657 2345</span>
+                        <span><BiSolidContact  id='headerlist__section__one__icon'/> Contact Us</span>
+                        <span><FaPhone  id='headerlist__section__one__icon'/> +2348166208531</span>
                     </div>
                 </li>
                 </ul>
