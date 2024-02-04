@@ -7,11 +7,13 @@ import Glance from './pages/about/Glance';
 import Purpose from './pages/about/Purpose';
 import Operations from './pages/operations/Operations';
 import Strategy from './pages/strategy/Strategy';
+import ScrollToTop from './utils/ScrollToTop';
 
 function App() {
   return (
     <div className="app">
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />

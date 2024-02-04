@@ -58,7 +58,7 @@ function Home() {
     
       const divStyle = {
         backgroundSize: 'cover',
-        minHeight: '70vh',
+        minHeight: '60vh',
       }
       const slideImages = [
         {
